@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Image Compression</title>
+		<style type="text/css">
+		
+		
+		.header {
+		font: Bold 20px Impact;
+		letter-spacing: 4px;
+		color: White;
+		text-align: Center;
+		}
+		
+		.headerbg {
+		background-color: Black;
+		}
+		
+		.imagesbg {
+		background-color: Grey;
+		text-align: center;
+		height: 210px;
+		}
+		
+		.image {
+		vertical-align: middle;
+		}
+		
+		table {
+		width:100%;
+		border-style: Solid;
+		border-color: Black;
+		}
+		
+		td {
+		width:33.3%;
+		}
+		
+		
+		</style>
+	</head>
+	
+	<body>
+	
+		<table>
+			<tr class="headerbg">
+				<td><p class="header">Image 1</p></td>
+				<td><p class="header">Image 2</p></td>
+				<td><p class="header">Image 3</p></td>
+			</tr>
+			<tr class="imagesbg">
+				<td><img src="images/Booster_Logo_Fourcolor.png" class="image" width="300" height="200" title="HTML5 logo" alt="HTML5 logo" /></td>
+				<td><img src="images/Booster_Logo_Fourcolor.gif" class="image" width="300" height="200" title="HTML5 logo" alt="HTML5 logo" /></td>
+				<td><img src="images/Booster_Logo_Fourcolor.jpg" class="image" width="300" height="200" title="HTML5 logo" alt="HTML5 logo" /></td>
+			</tr>
+			<tr>
+				<td>This image is the .png image which as you can see retains full transparency without any of the matting. While it is the highest quality it also has a larger file size.</td>
+				<td>This image is the .gif image which is semi transparent but has a white matte around where the drop shadow is involved in the picture making it look bad.</td>
+				<td>This image is the .jpg image which has no transparency at all and retains a completely white background.</td>
+			</tr>
+		</table>
+	</body>
+</html>
