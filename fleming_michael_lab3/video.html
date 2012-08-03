@@ -4,20 +4,38 @@
 		<meta charset="utf-8">
 		<title>HTML5 Video</title>
 		<style type="text/css">
-	
 		
+		h1 {
+		text-align: Center;
+		font-family: "Helvetica Neue";
+		font-size: 24px;
+		color: Olive;
+		}
 		
+		#header {
+		background-color: Black;
+		}
+		
+		#footer {
+		font-size: 18px;
+		font-family: Papyrus;
+		}
 		</style>
 	</head>
 	
 	<body>
-	<h1>My Video</h1>
-	<video controls="controls" banner="http://www.freefoto.com/images/01/07/01_07_1---Pair-of-Dogs_web.jpg" width="640" height="480">
-	<source src="videos/HTML5Video.iphone.mp4" type="video/mp4">
-	<source src="videos/HTML5Video.theora.ogv" type="video/ogg">
-	<source src="videos/HTML5Video.webm" type="video/webm">
-	<a href="videos/HTML5Video.mov">Or you can download the movie here</a>
-	</video>
-	<p>Video of my dogs playing.</p>
+	
+		<div id="header">
+			<h1>My Video</h1>
+		</div>
+			<video controls="controls" width="640" height="485">
+			<source src="videos/HTML5Video.iphone.mp4" type="video/mp4">
+			<source src="videos/HTML5Video.theora.ogv" type="video/ogg">
+			<source src="videos/HTML5Video.webm" type="video/webm">
+		</video>
+	
+		<div id="footer">
+			<p>Video of my dogs playing. Or you can <a href="videos/HTML5Video.mov">download</a> the movie here.</p>
+		</div>
 	</body>
 </html>
