@@ -3,16 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML 5 tables</title>
+		
   	<style type="text/css">
   	table {
    		border: 5px Double Black;
-   		padding: 0.5em;
+   		padding: 0.2em;
    	}
     
     th, tr, td {
-    padding: 1em;
+    padding: 0.8em;
     border: 1px solid black;
     text-align: center;
+    }
+    
+    td {
+    width: 250px;
     }
     
     .players {
@@ -21,7 +26,6 @@
    	
   	</style>
   </head>
-	
 	<body>
 	
 		<table> 
@@ -120,7 +124,11 @@
 							A. Nocioni<br />
 						</td>
 					</tr>
-				<tfooter>&copy; London Olympics 2012</tfooter>	
+				<tfoot>
+					<tr>
+						<td colspan="3">&copy; London Olympics 2012</td>
+					</tr>
+				</tfoot>	
 			</tbody>
 		</table>
 		
