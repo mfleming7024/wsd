@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Michael's Movie Reviews</title>
+	<link>http://mfleming7024.github.com/fleming_michael_lab7/rss_link.html</link>
+	<description>When you need good movie reviews come to our website because we are better...than everyone else.</description>
+	
+		<item>
+			<title>The Dark Knight</title>
+			<link>http://mfleming7024.github.com/fleming_michael_lab7/rss_link.html</link>
+			<description>The Dark Knight is a 2008 superhero film directed, produced, and co-written by Christopher Nolan. Based on the DC Comics character Batman, the film is the second part of Nolan's Batman film series and a sequel to 2005's Batman Begins.</description>
+		</item>
+		<item>
+			<title>The Dark Knight Rises</title>
+			<link>http://mfleming7024.github.com/fleming_michael_lab7/rss_link.html</link>
+			<description>The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan and the story with David S. Goyer.</description>
+		</item>
+		<item>
+			<title>Batman Begins</title>
+			<link>http://mfleming7024.github.com/fleming_michael_lab7/rss_link.html</link>
+			<description>Looking to kickstart the old batman a new Bruce Wayne (Christian Bale) picks the cape back up to confront the criminal mastermind known as scarecrow.</description>
+		</item>
+		<item>
+			<title>Batman</title>
+			<link></link>
+			<description>Filmed in 1989. Where the legend begins, Bruce Wayne embraces batman</description>
+		</item>
+
+</channel>
+</rss>
