@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML 5 form</title>
+		<style type="text/css">
+		body {
+		width: 960px;
+		margin: 0 auto;
+		}
+		
+		h1 {
+		text-align: center;
+		}
+		
+		p {
+		margin-bottom: 0px;
+		}
+		
+		.right {
+		float: left;
+		width: 45%;
+		}
+		
+		.left {
+			float: left;
+			width: 45%;
+		}
+		</style>
+  </head>
+	
+	<body>
+		
+		<h1>Contact Form</h1>
+		<form method="post" action="#">
+			<div class="left">
+					<p>Male or Female:</p>
+					<input type="radio" name="gender" value-="first-option">Male</input>
+					<input type="radio" name="gender" value="second-option">Female</input>
+					<br />
+					
+					<p>What's the problem?</p>
+					<input type="checkbox" name="phone" value="mobile">Technical
+					<input type="checkbox" name="phone" value="home">Work Problem
+					<input type="checkbox" name="phone" value="work">Other
+					<p>If other</p>
+					<input type="text" name="problem" placeholder="Problem">
+					
+					<p>How long has this been occurring?</p>
+					<select name="select">
+					<option value="first">A few days.</option>
+					<option value="second">A few weeks.</option>
+					<option value="third">Longer than a month.</option>
+					</select>
+					<br />
+					
+					<p>Where are you based in?</p>
+					<select name="countries" multiple="multiple">
+					<optgroup label="USA">
+						<option>Florida</option>
+						<option>Texas</option>
+						<option>California</option>
+						<option>New York</option>
+						<option>Washington</option>
+						<option>Idaho</option>
+					</optgroup>
+					<optgroup label="Canada">
+						<option>Quebec</option>
+						<option>Montreal</option>
+					</optgroup>
+					</select>
+					
+					<p>Please feel free to leave additional information in this box</p>
+					<textarea cols="20" rows="5" name="additional">Add additional information here</textarea>
+					<br />
+					
+					<input type="submit" method="post"><input type="reset">
+				</div>
+				<div class="right">	
+					<p>Whats your e-mail address?</p>
+					<input type="email" name="email_address">
+					
+					<p>Do you have a website?</p>
+					<input type="url" name="website">
+					
+					<p>What's your Number?</p>
+					<input type="tel" name="area_code" max-length="3" size="3">-
+					<input type="tel" name="3_digits" max-length="3" size="3">-
+					<input type="tel" name="4_digits" max-length="4" size="4">
+					
+					<p>Did you try searching your problem?</p>
+					<input type="search" name="search_problem" size="15">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit">
+					
+					<p>Whats your favorite color?</p>
+					<input type="color" name="fav_color">
+					
+					<p>Placeholder & autofocus</p>
+					<input type="text" placeholder="Enter Text Here" autofocus="true" required="true">
+					
+					<p>Enter a range of how frustrated you are with this problem</p>
+					<input type="range" name="frustration_number">
+					
+					<p>How many people are involved in this problem</p>
+					<input type="number" name="people_inv">&nbsp;(1-10)
+					
+					<p>When did this first occur?</p>
+					<input type="date" name="occurance_date">
+					
+					<p>What time did this happen?</p>
+					<input type="time" name="occurance_time">
+					
+					<p>Enter your surname</p>
+					<input type="text" list="mydata">
+					<datalist id="mydata">
+						<option value="Mr.">
+						<option value="Mrs.">
+						<option value="Dr.">
+						<option value="Ms.">
+						<option value="Grandmaster">
+					</datalist>
+					
+					<p>Hold on, registering data</p>
+					<progress value="50" max="100"></progress>									
+				</div>
+		</form>
+	</body>
+	
+</html>
