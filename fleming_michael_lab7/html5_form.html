@@ -16,16 +16,6 @@
 		p {
 		margin-bottom: 0px;
 		}
-		
-		.right {
-		float: left;
-		width: 45%;
-		}
-		
-		.left {
-			float: left;
-			width: 45%;
-		}
 		</style>
   </head>
 	
@@ -34,9 +24,8 @@
 		<h1>Contact Form</h1>
 		<form method="post" action="#">
 			
-					<input type="submit" method="post"><input type="reset">
-				</div>
-				<div class="right">	
+					
+				<div>	
 					<p>Whats your e-mail address?</p>
 					<input type="email" name="email_address">
 					
@@ -44,9 +33,9 @@
 					<input type="url" name="website">
 					
 					<p>What's your Number?</p>
-					<input type="tel" name="area_code" max-length="3" size="3">-
-					<input type="tel" name="3_digits" max-length="3" size="3">-
-					<input type="tel" name="4_digits" max-length="4" size="4">
+					<input type="tel" name="area_code" maxlength="3" size="3">-
+					<input type="tel" name="3_digits" maxlength="3" size="3">-
+					<input type="tel" name="4_digits" maxlength="4" size="4">
 					
 					<p>Did you try searching your problem?</p>
 					<input type="search" name="search_problem" size="15">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit">
@@ -55,7 +44,7 @@
 					<input type="color" name="fav_color">
 					
 					<p>Placeholder & autofocus</p>
-					<input type="text" placeholder="Enter Text Here" autofocus="autofocus" required="true">
+					<input type="text" placeholder="Enter Text Here" autofocus="autofocus" required="required">
 					
 					<p>Enter a range of how frustrated you are with this problem</p>
 					<input type="range" name="frustration_number">
@@ -80,7 +69,9 @@
 					</datalist>
 					
 					<p>Hold on, registering data</p>
-					<progress value="50" max="100"></progress>									
+					<progress value="50" max="100"></progress>	
+					<br />
+					<input type="submit"><input type="reset">								
 				</div>
 		</form>
 	</body>
