@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML 5 form</title>
+		<style type="text/css">
+		body {
+		width: 960px;
+		margin: 0 auto;
+		}
+		
+		h1 {
+		text-align: center;
+		}
+		
+		p {
+		margin-bottom: 0px;
+		}
+		</style>
+  </head>
+	
+	<body>
+		
+		<h1>Contact Form</h1>
+		<form method="post" action="">
+			
+			
+			<fieldset>
+			<legend>Gender</legend>
+			<p>Male or Female:</p>
+				<input type="radio" name="gender" id="male"><label for="male">Male</label>
+				<input type="radio" name="gender" id="female"><label for="female">Female</label>
+			</fieldset>
+	
+			<fieldset>
+			<legend>Problem</legend>
+				<p>What's the problem?</p>
+				<input type="checkbox" name="phone" value="mobile" id="technical"><label for="technical">Technical</label>
+				<input type="checkbox" name="phone" value="home" id="work_problem"><label for="work_problem">Work Problem</label>
+				<input type="checkbox" name="phone" value="work" id="other"><label for="other">Other</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Length</legend>
+					<p>How long has this been occurring?</p>
+					<select name="select">
+						<option value="first">A few days.</option>
+						<option value="second">A few weeks.</option>
+						<option value="third">Longer than a month.</option>
+					</select>
+				</legend>
+			</fieldset>
+
+
+			<fieldset>
+				<legend>Location</legend>
+					<p>Where are you based in?</p>
+					<select name="countries" multiple="multiple">
+						<optgroup label="USA">
+							<option>Florida</option>
+							<option>Texas</option>
+							<option>California</option>
+							<option>New York</option>
+							<option>Washington</option>
+							<option>Idaho</option>
+						</optgroup>
+						<optgroup label="Canada">
+							<option>Quebec</option>
+							<option>Montreal</option>
+						</optgroup>
+					</select>
+				</legend>
+			</fieldset>
+			
+			
+			<fieldset>
+				<legend>Additional</legend>
+					<p><label for="etc">Enter Additional Information Here</label></p>
+					<textarea cols="20" rows="5" name="additional" id="etc" placeholder="Add additional information here"></textarea>
+			</fieldset>
+			
+			<input type="submit" method="post"><input type="reset">
+	
+		</form>
+	</body>
+	
+</html>
