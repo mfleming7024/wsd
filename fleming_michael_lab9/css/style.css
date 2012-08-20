@@ -1,0 +1,110 @@
+html {
+background-image: url("../img/mariokart_01.jpg");	
+background-repeat: repeat;
+}
+
+#container {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #777777;
+width: 650px;
+margin: 0 auto 0 auto;
+padding-left: 20px;
+padding-right: 20px;
+background-image: url("../img/bg_wrapper.png");
+background-repeat: repeat-y;
+}
+
+header {
+background-image: url("../img/bg_header.jpg");
+background-repeat: no-repeat;
+background-position: top left;
+height: 130px;
+}
+
+header h1 {
+margin: 0;
+padding: 0;
+text-indent: -9999px;
+}
+
+nav {
+font-size: 130%;
+font-weight: bold;
+margin: 0;
+padding: 10px 20px 10px 20px;
+background-image: url("../img/bg_nav.jpg");
+background-repeat: repeat-x;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+}
+
+nav li {
+display: inline;
+padding-right: 2em;
+list-style-type: none;
+font-size: 80%;
+}
+						
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border-bottom: 1px solid #999999;
+}
+
+#main {
+padding: 35px 20px 0px 20px;
+color: #00a1e4;	
+}
+
+aside {
+padding-left: 10px;
+padding-right: 10px;	
+width: 350px;
+float: right;
+}
+
+aside h2 {
+font-size: 155%;
+margin: 0;
+padding: 0;	
+}
+
+aside p {
+color: #999;	
+}
+
+#support {
+width: 220px;
+float: left;
+margin-top: 0;
+background-image: url("../img/divider.jpg");
+background-position: top right;	
+background-repeat: no-repeat;
+}
+
+#support ul {
+margin: 0;
+padding: 0;	
+}
+
+#support li {
+list-style-type: none;
+padding-bottom: 20px;
+}
+
+#support li img{
+border: 1px solid #666666;
+}
+
+footer {
+clear: both;
+text-align: right;
+color: #9a9a9a;
+padding: 15px;		
+}
